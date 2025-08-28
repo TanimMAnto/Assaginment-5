@@ -65,8 +65,8 @@
     padding-top: 92px;
     padding-bottom: 40px;
 }
-.parent-card{
-    padding: ;
+.parent-card-2{
+    padding-right: 24px ;
 }
 .card-logo{
     padding-left: 20px;
@@ -110,6 +110,17 @@
 }
 .call-section{
     padding-top: 92px;
+}
+
+.call-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.call-btn-2{
+    padding: 14px 36px;
+    border-radius: 17px;
+    color: white;
+
 }
 
 
