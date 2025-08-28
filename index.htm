@@ -21,11 +21,11 @@
             </div>
             <div class="flex nav-icon">
                 <div class="flex gap-2 heart-1 bg-green-100">
-                    <h1 class="text-bold">0</h1>
-                    <img class="heart" src="assets/heart.png" alt="">
+                    <h1 class="text-bold"><span id="fav-count">0</span></h1>
+                    <img id="" class="heart" src="assets/heart.png" alt="">
                 </div>
                 <div class="flex gap-2 heart-1 bg-green-100">
-                    <h1 class="text-bold">100</h1>
+                    <h1 id="nav-coin" class="text-bold">100</h1>
                     <img class="heart" src="assets/coin.png" alt="">
                 </div>
                 <button class="btn btn-sm bg-green-500 nav-btn">Copy</button>
@@ -52,9 +52,9 @@
             <div class="card w-96 bg-base-100 card-md shadow-sm parent-card">
                 <div class="flex img-section card-logo ">
                    <img class="logo-icon w-15" src="assets/emergency.png" alt="">
-                     <i class="fa-regular fa-heart love-icon"></i>
+                     <button class="heart-btn"><i  class="fa-regular fa-heart love-icon"></i></button>
                 </div>
-              <div class="card-body">
+              <div class="card-body main-card">
                <h2 class="card-title">National Emergency Number</h2>
                 <p>National Emergency</p>
                 <br>
@@ -63,7 +63,7 @@
                 <br>
              <div class="card-actions gap-2">
              <button class="btn copy-btn p-7"><i class="fa-solid fa-copy"></i>Copy</button> 
-             <button class="btn call-btn bg-green-600"><i class="fa-solid fa-phone"></i>Call</button>
+             <button class="btn call-btn bg-green-600 call-btn1"><i class="fa-solid fa-phone"></i>Call</button>
              </div>
            </div>
          </div>
@@ -170,10 +170,17 @@
           <div class="card w-96 bg-base-100 card-md shadow-sm parent-card-2 min-h-screen">
                 <div class="flex img-section card-logo ">
                    <h1 class="call-text"><i class="fa-solid fa-clock-rotate-left"></i> Call History</h1>
-                   <button class="btn call-btn-2 bg-green-600">Clear</button> 
+                   <ul id="call-history"></ul>
+                   <button id="clear-history" class="btn call-btn-2 bg-green-600">Clear</button> 
                 </div>
              </div>
         </section>
+
+
+
+
+
+        <script src="./main.js"></script>
     </main>
 </body>
 </html>
