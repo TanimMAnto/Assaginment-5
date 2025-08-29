@@ -1,6 +1,8 @@
 
 /* Navbar start */
-
+*{
+     overflow-x: hidden; 
+}
 .nav-logo{
     width: 50px;
 }
@@ -121,4 +123,17 @@
     border-radius: 17px;
     color: white;
 
+}
+
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    .nav-Container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .card-section{
+        grid-template-columns:  1fr;
+    }
+    
 }
