@@ -45,3 +45,23 @@ callBtn.forEach(function (btn) {
 document.getElementById("clear-history").addEventListener("click", function(){
     document.getElementById("call-history").innerHTML = "";
 })
+
+
+// copy section
+function copyText() {
+    const text = document.getElementById("copyText").innerText;
+    navigator.clipboard.writeText(text) 
+        alert("Copied: " + text);
+    }
+
+
+// local time section
+function upDateTime() {
+    const now = new Date();
+    
+
+    document.getElementById("time").innerText = now.toLocaleTimeString();
+}
+
+setInterval(upDateTime, 1000);
+upDateTime();

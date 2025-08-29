@@ -16,6 +16,8 @@
     justify-content: space-between;
     align-items: center;
     margin-left: 60px;
+    padding-bottom: 27px;
+    padding-top: 25px;
 }
 .logo-text{
     font-weight: bold;
@@ -26,11 +28,9 @@
     margin-right: 60px;
 }
 .nav-btn{
+    padding: 14px 36px;
+    border-radius: 17px;
     color: white;
-    padding-bottom: 14px;
-    padding-top: 14px;
-    padding-right: 36px;
-    padding-left: 36px;
 }
 .text-bold{
     font-size: 16px;
@@ -122,21 +122,3 @@
     color: white;
 
 }
-
-
- /* <div class="parent-card">
-            <div class="flex ">
-                <img src="assets/emergency.png" alt="">
-                <i class="fa-regular fa-heart"></i>
-            </div>
-            <div>
-                <h1>National Emergency Number</h1>
-                <p>National Emergency</p>
-                <br>
-                <h1>999</h1>
-                <p>All</p>
-         </div>
-         <div>
-            <h1>Copy</h1>
-            <button>Call</button>
-         </div> */
